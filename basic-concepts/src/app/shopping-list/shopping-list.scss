@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    margin-top: 50px;
+    width: 700px;
+    max-width: 700px;
+    max-height: 400px;
+    box-shadow: 0px 5px 8px rgb(171, 171, 171);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.add-item-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+    table-layout: fixed;
+}
+
+thead{
+    background-color: #608bff;
+    color: #fff;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+td{
+    word-wrap: break-word;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+th:first-child,
+td:first-child {
+    width: 40px;
+}
+
+th:last-child,
+td:last-child {
+    width: 80px;
+}
+
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-color: #608bff;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #608bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
