@@ -29,6 +29,11 @@
     gap: 10px;
 }
 
+.item-purchased{
+    text-decoration: line-through;
+    color: #999;
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
