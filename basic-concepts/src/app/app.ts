@@ -1,8 +1,7 @@
 import { Component, signal } from '@angular/core';
-import { Calculator } from './calculator/calculator';
 
 @Component({
-  imports: [Calculator],
+  imports: [],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
