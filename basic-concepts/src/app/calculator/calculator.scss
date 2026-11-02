@@ -40,7 +40,7 @@ h2{
 }
 
 input[type="number"]{
-    width: 70%;
+    width: 75%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -53,8 +53,8 @@ input[type="number"]{
 
 button{
     margin: 0px auto;
-    margin-top: 30px;
-    width: 70%;
+    margin-top: 15px;
+    width: 75%;
     padding: 10px;
     background-color: #4CAF50;
     color: white;
@@ -68,4 +68,16 @@ button{
 
 button:hover{
     background-color: #45a049;
+}
+
+.result-box{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+span{
+    font-weight: bold;
+    color: #4CAF50;
 }
